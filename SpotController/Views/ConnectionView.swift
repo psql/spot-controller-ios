@@ -10,7 +10,7 @@ import SwiftUI
 struct ConnectionView: View {
     @ObservedObject var api: SpotAPI
     @Binding var isConnected: Bool
-    @State private var serverURL: String = "http://192.168.80.101:8081"
+    @State private var serverURL: String = "http://192.168.100.245:8081"
     @State private var isConnecting = false
     @State private var showError = false
 
